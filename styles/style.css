@@ -58,7 +58,6 @@ ol {
 }
 
 .result {
-  grid-area: result;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -72,7 +71,6 @@ ol {
 .result__video {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 .search-form {
@@ -96,7 +94,6 @@ ol {
   display: flex;
   align-items: center;
   gap: 10px;
-  width: fit-content;
   cursor: pointer;
 }
 
@@ -109,13 +106,9 @@ ol {
   border: none;
   border-bottom: 1px solid #fff;
   padding: 5px 0;
-  outline: none;
   appearance: none;
 }
 
-.search-form__textfield::placeholder {
-  color: rgba(255, 255, 255, 0.5);
-}
 
 .search-form__checkbox-list {
   display: flex;
@@ -138,7 +131,6 @@ ol {
 }
 
 .search-form__pseudo-checkbox::after {
-  content: "";
   position: absolute;
   inset: 3px;
   display: none;
