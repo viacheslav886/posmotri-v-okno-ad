@@ -237,7 +237,6 @@ ol {
   font-size: 24px;
   font-weight: 700;
   overflow: hidden;
-  text-overflow: ellipsis;
   white-space: nowrap;
 }
 
@@ -249,8 +248,6 @@ ol {
 .content__video-card-thumbnail {
   width: 120px;
   height: 70px;
-  object-fit: cover;
-  object-position: center;
 }
 
 .visually-hidden {
